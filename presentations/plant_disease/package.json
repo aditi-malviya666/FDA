@@ -1,0 +1,12 @@
+{
+  "name": "plant-disease-presentation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Generator for the separate plant disease technical report slide deck",
+  "scripts": {
+    "build": "node ppt.js"
+  },
+  "dependencies": {
+    "pptxgenjs": "^3.12.0"
+  }
+}

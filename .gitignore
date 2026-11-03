@@ -1,0 +1,42 @@
+# Python environments and generated caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+
+# OS and temporary files
+.DS_Store
+Thumbs.db
+Desktop.ini
+~$*
+*.tmp
+*.log
+
+# Optional JavaScript presentation dependencies
+node_modules/
+npm-debug.log*
+
+# Include report directories, plots, and metric tables in version control.
+!/reports/
+!/reports/figures/
+!/reports/figures/*.png
+!/reports/metrics/
+!/reports/metrics/*.csv
+
+# Datasets and the slide deck are also intentionally not ignored.
+# Check dataset redistribution rights before committing them.
